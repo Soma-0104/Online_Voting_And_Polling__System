@@ -1,0 +1,65 @@
+.reg
+{
+    background-image: url('../Asserts/reg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* justify-content: center; */
+    display: flex;
+    height: 100vh;
+    padding-top: 60px;
+    font-size: 15px;
+    padding-right: 60%;
+    
+  }
+  .reg1,h1{
+    box-sizing: border-box;
+    padding-left: 25%;
+  }
+
+  .registration-form-container{
+  /* background-color: rgb(170, 227, 243); */
+  color: whitesmoke;
+  width: 100%;
+}
+.form-group {
+  margin-bottom: 10px;
+  width: 100%;
+  justify-content: center;
+}
+.form-group1 {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+}
+
+input{
+  width: 100%;
+  padding: 5px;
+  /* font-size: 16px; */
+}
+select {
+  width: 100%;
+  padding: 5px;
+  /* font-size: 16px; */
+}
+
+button {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  /* font-size: 14px; */
+  margin-top: 5px;
+}
