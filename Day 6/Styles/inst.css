@@ -1,0 +1,28 @@
+.in h1{
+    /* text-align: center; */
+    font-family: 'Times New Roman', Times, serif;
+    /* font-size: medium; */
+    padding-left: 35%;
+}
+.in{
+    justify-content: center;
+    display: flex;
+    /* text-align: center; */
+    padding-bottom: 40px;
+    font-size:small;
+    margin: 30px;
+    border: solid rgb(37, 37, 36);
+    /* padding-left: 40%; */
+    /* width: 30%; */
+}
+li{
+    padding: 7px;
+}
+.ag{
+    padding-left: 40%;
+    font-weight: bold;
+}
+.con
+{
+    width: 400px;
+}
