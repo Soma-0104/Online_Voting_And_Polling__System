@@ -1,0 +1,18 @@
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width:40%;
+}
+.mainpage h1{
+    padding-top: 10px;
+    padding-left: 43%;
+}
+.val{
+    padding-top:50px;
+}
+.mainpage{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: gainsboro;
+    height: 100vh;
+    padding-top: 70px;
+}
