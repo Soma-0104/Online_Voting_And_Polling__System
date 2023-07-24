@@ -1,0 +1,116 @@
+.div2, .div3, .div1 {
+    padding-top: 60px;
+    text-align: center;
+}
+
+.div2, .div3 {
+    padding-left: 15%;
+}
+.box {
+    padding-top: 70px;
+}
+.full {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+    margin: 20px;
+}
+
+.ig {
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.select {
+    background-image: url('../Assets/bac3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    height: 100vh;
+}
+
+/* Media query for smaller screens */
+/* @media screen and (max-width: 768px) {
+    .select {
+        background-size: contain; 
+        height: 100vh;
+    }
+} */
+
+.select a {
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width: 600px) {
+    .div2, .div3, .div1 {
+        padding-left: 5%;
+    }
+
+    .box {
+        padding-top: 40px;
+    }
+
+    .ig{
+        width: 150px;
+        height: 150px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .full {
+        flex-wrap: wrap;
+    }
+
+    .ig {
+        width: 120px;
+        height: 120px;
+    }
+}
+.select {
+    background-image: url('../Assets/bac3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  /* Adjust styles for smaller screens */
+  @media screen and (max-width: 768px) {
+    .div1, .div3 {
+      padding-left: 5%;
+    }
+  
+    .box {
+      padding-top: 40px;
+    }
+  
+    .ig {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 576px) {
+    .div1, .div3 {
+      padding-left: 5%;
+    }
+  
+    .box {
+      padding-top: 30px;
+    }
+  
+    .ig {
+      width: 120px;
+      height: 120px;
+    }
+  }
+  
+  .navbar-light {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  .navbar-brand {
+    color: rgb(64, 63, 63);
+    font-size: medium;
+  }
+  

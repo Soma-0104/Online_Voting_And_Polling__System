@@ -1,0 +1,48 @@
+.ballot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .candidates {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+  }
+  
+  .candidates label {
+    margin-bottom: 10px;
+  }
+  
+  .candidates input[type="radio"] {
+    margin-right: 5px;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  .alert {
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    color: #721c24;
+    padding: 10px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .alert button {
+    background-color: transparent;
+    border: none;
+    color: #721c24;
+    cursor: pointer;
+  }
+  
+  .alert button:focus {
+    outline: none;
+  }
+  
