@@ -1,0 +1,37 @@
+/* dashboard.css */
+
+/* Common styles for both desktop and mobile */
+.dashboard-container {
+    display: flex;
+
+  }
+  
+  .sidebar {
+    /* Add your sidebar styles here */
+    width: 250px;
+    background-color: #f0f0f0;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+  
+  .main-content {
+    /* Add your main content styles here */
+    margin-left: 250px; /* Width of the sidebar */
+    padding: 20px;
+    margin-top: 80px; /* Adjust the top margin to accommodate the fixed sidebar */
+  }
+  
+  /* Responsive styles for mobile */
+  @media screen and (max-width: 768px) {
+    .dashboard-container {
+      flex-direction: column; /* Stack sidebar and main content in mobile view */
+    }
+  
+    .main-content {
+      margin-left: 0; /* Remove margin to stack main content below the sidebar */
+      margin-top: 0; /* Remove top margin */
+    }
+  }
+  
