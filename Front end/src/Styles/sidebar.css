@@ -1,0 +1,27 @@
+/* Fixed sidebar styles */
+#side {
+    display: flex;
+  }
+  
+  /* Customize the sidebar width and background color */
+  .react-pro-sidebar {
+    width: 250px;
+    background-color: #f0f0f0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: 999;
+  }
+  
+  /* Customize the main content area to have padding on the left to avoid content overlap */
+  main {
+    padding-left: 250px;
+  }
+  
+  /* Add scrollbar to the sidebar if it exceeds the viewport height */
+  .react-pro-sidebar-content {
+    overflow-y: auto;
+    max-height: 100vh;
+  }
+  
